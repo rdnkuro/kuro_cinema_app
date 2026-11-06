@@ -1,0 +1,24 @@
+name: kuro_cinema_app
+description: "A Netflix-style movie application built with Flutter and TMDB API."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  carousel_slider: ^5.0.0
+  flutter_card_swiper: ^7.0.0
+  cached_network_image: ^3.4.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
